@@ -1,0 +1,44 @@
+<suite name="Sanity test" >
+
+<test name="Search on headless Sanity test" >
+<parameter name="browserType" value="headless"></parameter>
+<classes>
+	<class name="com.nextera.testautomation.AppTest">
+		<methods>
+		<include name="testMethod3" />			
+		</methods>
+	</class>
+</classes>
+</test>
+<test name="Search on chrome Sanity test" >
+<parameter name="browserType" value="chrome"></parameter>
+<classes>
+	<class name="com.nextera.testautomation.AppTest">
+		<methods>
+		<include name="testMethod3" />			
+		</methods>
+	</class>
+</classes>
+</test>
+<test name="Search on internet explorer Sanity test" >
+<parameter name="browserType" value="internet explorer"></parameter>
+<classes>
+	<class name="com.nextera.testautomation.AppTest">
+		<methods>
+		<include name="testMethod3" />			
+		</methods>
+	</class>
+</classes>
+</test>
+
+<test name="Search on firefox Sanity test" >
+<parameter name="browserType" value="firefox"></parameter>
+<classes>
+	<class name="com.nextera.testautomation.AppTest">
+		<methods>
+		<include name="testMethod3" />			
+		</methods>
+	</class>
+</classes>
+</test>
+</suite>

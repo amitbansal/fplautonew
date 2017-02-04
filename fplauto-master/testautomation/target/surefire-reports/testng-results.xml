@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sanity test" duration-ms="31853" started-at="2017-01-13T19:38:12Z" finished-at="2017-01-13T19:38:44Z">
+    <groups>
+    </groups>
+    <test name="Search on Chrome Sanity test" duration-ms="10276" started-at="2017-01-13T19:38:12Z" finished-at="2017-01-13T19:38:22Z">
+      <class name="com.nextera.testautomation.AppTest">
+        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:com.nextera.testautomation.AppTest@58651fd0]" name="beforeTest" is-config="true" duration-ms="16" started-at="2017-01-13T14:38:12Z" finished-at="2017-01-13T14:38:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@436bc36]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.nextera.testautomation.AppTest@58651fd0]" name="beforeClass" is-config="true" duration-ms="359" started-at="2017-01-13T14:38:12Z" finished-at="2017-01-13T14:38:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.nextera.testautomation.AppTest@58651fd0]" name="beforeMethod" is-config="true" duration-ms="5400" started-at="2017-01-13T14:38:12Z" finished-at="2017-01-13T14:38:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testMethod3()[pri:0, instance:com.nextera.testautomation.AppTest@58651fd0]" name="testMethod3" duration-ms="866" started-at="2017-01-13T14:38:18Z" finished-at="2017-01-13T14:38:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod3 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nextera.testautomation.AppTest@58651fd0]" name="tearDown" is-config="true" duration-ms="3635" started-at="2017-01-13T14:38:19Z" finished-at="2017-01-13T14:38:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethod3 status=SUCCESS method=AppTest.testMethod3()[pri:0, instance:com.nextera.testautomation.AppTest@58651fd0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nextera.testautomation.AppTest -->
+    </test> <!-- Search on Chrome Sanity test -->
+    <test name="Search on firefox Sanity test" duration-ms="12293" started-at="2017-01-13T19:38:22Z" finished-at="2017-01-13T19:38:35Z">
+      <class name="com.nextera.testautomation.AppTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.nextera.testautomation.AppTest@55f3ddb1]" name="beforeClass" is-config="true" duration-ms="32" started-at="2017-01-13T14:38:22Z" finished-at="2017-01-13T14:38:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:com.nextera.testautomation.AppTest@55f3ddb1]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-01-13T14:38:22Z" finished-at="2017-01-13T14:38:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@37091312]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.nextera.testautomation.AppTest@55f3ddb1]" name="beforeMethod" is-config="true" duration-ms="9481" started-at="2017-01-13T14:38:22Z" finished-at="2017-01-13T14:38:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testMethod3()[pri:0, instance:com.nextera.testautomation.AppTest@55f3ddb1]" name="testMethod3" duration-ms="1121" started-at="2017-01-13T14:38:32Z" finished-at="2017-01-13T14:38:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod3 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nextera.testautomation.AppTest@55f3ddb1]" name="tearDown" is-config="true" duration-ms="1659" started-at="2017-01-13T14:38:33Z" finished-at="2017-01-13T14:38:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethod3 status=SUCCESS method=AppTest.testMethod3()[pri:0, instance:com.nextera.testautomation.AppTest@55f3ddb1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nextera.testautomation.AppTest -->
+    </test> <!-- Search on firefox Sanity test -->
+    <test name="Search on IE  Sanity test" duration-ms="9269" started-at="2017-01-13T19:38:35Z" finished-at="2017-01-13T19:38:44Z">
+      <class name="com.nextera.testautomation.AppTest">
+        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:com.nextera.testautomation.AppTest@475530b9]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-01-13T14:38:35Z" finished-at="2017-01-13T14:38:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@66fdec9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.nextera.testautomation.AppTest@475530b9]" name="beforeClass" is-config="true" duration-ms="32" started-at="2017-01-13T14:38:35Z" finished-at="2017-01-13T14:38:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.nextera.testautomation.AppTest@475530b9]" name="beforeMethod" is-config="true" duration-ms="6239" started-at="2017-01-13T14:38:35Z" finished-at="2017-01-13T14:38:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[internet explorer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testMethod3()[pri:0, instance:com.nextera.testautomation.AppTest@475530b9]" name="testMethod3" duration-ms="1921" started-at="2017-01-13T14:38:41Z" finished-at="2017-01-13T14:38:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod3 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nextera.testautomation.AppTest@475530b9]" name="tearDown" is-config="true" duration-ms="1077" started-at="2017-01-13T14:38:43Z" finished-at="2017-01-13T14:38:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethod3 status=SUCCESS method=AppTest.testMethod3()[pri:0, instance:com.nextera.testautomation.AppTest@475530b9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nextera.testautomation.AppTest -->
+    </test> <!-- Search on IE  Sanity test -->
+  </suite> <!-- Sanity test -->
+</testng-results>

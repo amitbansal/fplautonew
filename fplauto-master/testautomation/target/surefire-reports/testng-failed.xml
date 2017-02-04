@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Sanity test]">
+  <parameter name="browserType" value="internet explorer"/>
+  <test name="Search on Chrome Sanity test">
+    <parameter name="browserType" value="chrome"/>
+    <classes>
+      <class name="com.nextera.testautomation.AppTest">
+        <methods>
+          <include name="testMethod3"/>
+        </methods>
+      </class> <!-- com.nextera.testautomation.AppTest -->
+    </classes>
+  </test> <!-- Search on Chrome Sanity test -->
+  <test name="Search on firefox Sanity test">
+    <parameter name="browserType" value="firefox"/>
+    <classes>
+      <class name="com.nextera.testautomation.AppTest">
+        <methods>
+          <include name="testMethod3"/>
+        </methods>
+      </class> <!-- com.nextera.testautomation.AppTest -->
+    </classes>
+  </test> <!-- Search on firefox Sanity test -->
+  <test name="Search on IE  Sanity test">
+    <parameter name="browserType" value="internet explorer"/>
+    <classes>
+      <class name="com.nextera.testautomation.AppTest">
+        <methods>
+          <include name="testMethod3"/>
+        </methods>
+      </class> <!-- com.nextera.testautomation.AppTest -->
+    </classes>
+  </test> <!-- Search on IE  Sanity test -->
+</suite> <!-- Failed suite [Sanity test] -->

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sanity test]">
+  <parameter name="browserType" value="firefox"/>
+  <test name="Search on headless Sanity test">
+    <parameter name="browserType" value="headless"/>
+    <classes>
+      <class name="com.nextera.testautomation.AppTest">
+        <methods>
+          <include name="testMethod3"/>
+        </methods>
+      </class> <!-- com.nextera.testautomation.AppTest -->
+    </classes>
+  </test> <!-- Search on headless Sanity test -->
+  <test name="Search on chrome Sanity test">
+    <parameter name="browserType" value="chrome"/>
+    <classes>
+      <class name="com.nextera.testautomation.AppTest">
+        <methods>
+          <include name="testMethod3"/>
+        </methods>
+      </class> <!-- com.nextera.testautomation.AppTest -->
+    </classes>
+  </test> <!-- Search on chrome Sanity test -->
+  <test name="Search on internet explorer Sanity test">
+    <parameter name="browserType" value="internet explorer"/>
+    <classes>
+      <class name="com.nextera.testautomation.AppTest">
+        <methods>
+          <include name="testMethod3"/>
+        </methods>
+      </class> <!-- com.nextera.testautomation.AppTest -->
+    </classes>
+  </test> <!-- Search on internet explorer Sanity test -->
+  <test name="Search on firefox Sanity test">
+    <parameter name="browserType" value="firefox"/>
+    <classes>
+      <class name="com.nextera.testautomation.AppTest">
+        <methods>
+          <include name="testMethod3"/>
+        </methods>
+      </class> <!-- com.nextera.testautomation.AppTest -->
+    </classes>
+  </test> <!-- Search on firefox Sanity test -->
+</suite> <!-- Failed suite [Sanity test] -->
